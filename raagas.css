@@ -1,0 +1,94 @@
+#header{
+    background-color: rgb(65, 65, 184);
+    padding: 5px;
+    position: relative;
+    /*height=120px;
+    /*vertical-align: middle;*/
+}
+
+#header img{
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    display:block;
+}
+#header h1{
+    text-transform: uppercase;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 250%;
+    letter-spacing: 10px;
+    /*font-family: Verdana geneva, tahoma, sans-serif*/
+    text-shadow: 2px 2px 10px black;
+    color:aqua;
+    text-align: center;
+    position: absolute;
+    left: 450px;
+    top: 25px;
+}
+#navlinks{
+    background-color: aqua;
+    height: 750px;
+    width: 150px;
+    padding: 5px;
+    float: left;
+}
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: lightskyblue;
+    margin: auto;
+}
+li a{
+    display: block;
+    color:#000;
+    padding:8px 16px;
+    text-decoration: none;
+}
+
+/*Change the link color when hovered upon*/
+li a:hover{
+    background-color: burlywood;
+    color:black
+}
+#main{
+    width: 1300px;
+    height: 900px;
+    float: left;
+    padding: 10px;
+    text-align: justify;
+    color: white;
+    background-image: url("raagas2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hello{
+    text-align: center;
+    border-radius: 25px;
+    border: 5px solid lightseagreen;
+    padding: 5px;
+
+}
+
+button{
+    float: none;
+    text-align: center;
+    background-color: forestgreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+.cancelbtn{
+    width: auto; 
+    padding: 14px 20px;
+    background-color: #f44336;
+}

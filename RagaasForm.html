@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ragaas Registration Form</title>
+    <link rel="stylesheet" href="raagas.css">
+    <style>
+        h2{color: gold;
+        font-family: sans-serif;}
+        table,td{border:1px solid}
+        table{
+            margin-left:auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body style="background-color: cadetblue;">
+    <table cellpadding="8" width="600" 
+    style="background-color:aqua; text-align: center">
+        <div style="text-align:center;">
+            <caption align="top">
+                <h2>Registration Form</h2>
+            </caption>
+
+            <form name="regForm">
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name="fName" 
+                        size="30" tabindex="1" placeholder="Enter your First Name"
+                        style="background-color: #FFFFFF; border-color: #800000"></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" name="lName" 
+                        size="30" tabindex="2" placeholder="Enter your Last Name"
+                        style="background-color: #FFFFFF; border-color: #800000"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number" name="uName" 
+                        size="30" tabindex="3" placeholder="Enter your Age"
+                        style="background-color: #FFFFFF; border-color: #800000"></td>
+                </tr>
+                <tr>
+                    <td>Contact</td>
+                    <td><input type="tel" name="pass" 
+                        size="30" tabindex="4" placeholder="Enter your Contact Information"
+                        style="background-color: #FFFFFF; border-color: #800000"
+                        pattern="[0-9]{5}-[0-9]{5}" required></td>
+                </tr>
+                <tr>
+                    <td>Purpose</td>
+                    <td><input type="checkbox" name="edu1" 
+                        value="To Join" tabindex="6">To Join
+                        <input type="checkbox" name="edu2" 
+                        value="To Enquire" tabindex="7">To Enquire for a performance</td>
+                    </tr>
+                    <tr>
+                        <td>Enter your comments</td>
+                        <td><textarea rows="5" cols="30" wrap="hard"
+                            style="background-color: #FFFFFF; border-color: #800000"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center;">
+                                <input type="submit" value="Submit">
+                                <input type="reset" value="Reset">
+                            </td>
+                        </tr>
+            </form>
+        </div>
+    </table>
+</body>
+</html>
